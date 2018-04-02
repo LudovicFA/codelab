@@ -1,0 +1,386 @@
+{
+	"identification" : {
+		"name": "favre artigues",
+		"surname": "ludovic",
+		"birth": "1984/12/03",
+		"city": "nantes",
+		"startexperience": "2009",
+		"fonction": "Ingénieur étude et développement"
+	},
+	"formations" : [
+		{
+			"year": "2009",
+			"content" : "Diplôme d’Ingénieur Informatique – Ecole Nationale d’Ingénieurs de Brest"
+		},
+		{
+			"year": "2005",
+			"content" : "Formation Post BTS - Institut Lemonnier Caen"
+		},
+		{
+			"year": "2004",
+			"content" : "BTS Informatique et Réseaux - Institut Lemonnier Caen"
+		},
+		{
+			"year": "2002",
+			"content" : "Baccalauréat STI Génie Electrotechnique - Institut Lemonnier Caen"
+		}
+	],
+	"competences" : [
+		{"name": "UML", "categorie": "methode", "level": 2, "important": false},
+		{"name": "AGILE / Equipe", "categorie": "methode", "level": 3, "important": false},
+		{"name": "Dossier de conception / Documentation technique", "categorie": "methode", "level": 3, "important": false},
+		{"name": "PHP, Frameworks (Symfony 2)", "categorie": "esolution", "level": 4, "important": false},
+		{"name": "HTML 5, JavaScript (JQuery), CSS (Bootstrap)", "categorie": "esolution", "level": 4, "important": false},
+		{"name": "Angular JS", "categorie": "esolution", "level": 3, "important": true},
+		{"name": "Angular 2+", "categorie": "esolution", "level": 3, "important": true},
+		{"name": "React JS ", "categorie": "esolution", "level": 3, "important": true},
+		{"name": "NodeJS", "categorie": "esolution", "level": 3, "important": true},
+		{"name": "Docker", "categorie": "esolution", "level": 2, "important": false},
+		{"name": "Cordova / Ionic (application mobile)", "categorie": "esolution", "level": 3, "important": false},
+		{"name": "Apache 2.x", "categorie": "esolution", "level": 3, "important": false},
+		{"name": "Java 2EE, Servlets, JSP", "categorie": "esolution", "level": 1, "important": false},
+		{"name": "CMS (Wordpress, Joomla)", "categorie": "esolution", "level": 2, "important": false},
+		{"name": "Eclipse, Netbeans", "categorie": "esolution", "level": 2, "important": false},
+		{"name": "SVN, GIT", "categorie": "esolution", "level": 3, "important": false},
+		{"name": "Outils d’intégration continue (Jenkins)", "categorie": "esolution", "level": 3, "important": true},
+		{"name": "SQL, MySQL", "categorie": "sgbdd", "level": 4, "important": false},
+		{"name": "Doctrine", "categorie": "sgbdd", "level": 4, "important": false},
+		{"name": "Windows, Linux, Mac", "categorie": "autre", "level": 3, "important": false}
+	],
+	  "experiences": [
+	    {
+	      "societe": "la poste / dsi-centrale",
+	      "fonctions": "lead developpeur / scrumaster",
+	      "debut": "09/16",
+	      "fin": "",
+	      "projet": "Projet MaBoxRH",
+	      "introduction": "Evolutions du portail web MaBoxRH – services RH à destination des agents du Courrier",
+	      "details": [
+	        {"content": "Prise en charge de la fonction de Scrumaster", "important": true},
+	        {"content": "Refonte de l’application en Angular 2+", "important": true},
+	        {"content": "Réalisation des tests automatiques E2E de l’application", "important": false},
+	        {"content": "Maintenance d’une application de paramétrage en React JS", "important": false},
+	        {"content": "Maintenance et évolution des jobs Jenkins de déploiement", "important": true},
+	        {"content": "Intégration de l’application dans le Paas Courrier (Docker/Openshift)", "important": false},
+	        {"content": "Conseiller la MOA sur des aspects techniques", "important": false},
+	        {"content": "Réaliser la conception détaillée", "important": false},
+	        {"content": "Réaliser l’application", "important": false},
+	        {"content": "Apporter un support technique à tous les niveaux", "important": false},
+	        {"content": "Réaliser le plan de tests", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "Angular JS", "important": true},
+	      	{"content": "Angular 2+", "important": false},
+	      	{"content": "React JS", "important": true},
+	      	{"content": "Node JS", "important": true},
+	      	{"content": "Docker", "important": false},
+	      	{"content": "Jenkins", "important": true},
+	      	{"content": "Web Services REST", "important": false},
+	      	{"content": "HTML5/CSS3/JavaScript", "important": true},
+	      	{"content": "Twitter Bootstrap", "important": false},
+	      	{"content": "MySQL", "important": false},
+	      	{"content": "Scrumaster", "important": false},
+	      	{"content": "Agile / Scrum", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "credit agricole",
+	      "fonctions": "lead developpeur",
+	      "debut": "03/16",
+	      "fin": "08/16",
+	      "projet": "Caisse Atlantique Vendée – Pôle Digital",
+	      "introduction": "Développement d’une application mobile grand public pour une offre de service innovante Crédit Agricole Vendée",
+	      "details": [
+	        {"content": "Conception et mise en œuvre du socle technique", "important": false},
+	        {"content": "Chiffrage des développements, étude d’impact", "important": false},
+	        {"content": "Prototypage et conception technique", "important": false},
+	        {"content": "Développement de l’application mobile (Hybride) et du back-end (PHP / REST)", "important": false},
+	        {"content": "Intégration de la charte graphique", "important": false},
+	        {"content": "Recette et qualification technique", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "Agile / Scrum", "important": false},
+	      	{"content": "Application mobile hybride", "important": true},
+	      	{"content": "Ionic Framework", "important": false},
+	      	{"content": "Angular JS", "important": true},
+	      	{"content": "Apache Cordova", "important": true},
+	      	{"content": "Symfony 2", "important": false},
+	      	{"content": "PHP5", "important": true},
+	      	{"content": "Web Services REST", "important": false},
+	      	{"content": "HTML5/CSS3/JavaScript", "important": true},
+	      	{"content": "MySQL", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "CARIF - OREF",
+	      "fonctions": "lead developpeur",
+	      "debut": "11/15",
+	      "fin": "03/16",
+	      "projet": "Refonte des outils d’administrations des bases de données",
+	      "introduction": "En charge de la conception et du développement d’une application en ligne permettant d’administrer l’ensemble des offres de formations recensées par le Carif-Oref.<br>L’application permet de gérer un référentiel des organismes de formations ainsi que le cycle de vie des formations.",
+	      "details": [
+	        {"content": "Conception et mise en œuvre du socle technique", "important": false},
+	        {"content": "Chiffrage des développements, étude d’impact", "important": false},
+	        {"content": "Prototypage et conception technique", "important": false},
+	        {"content": "Support technique et accompagnement des développeurs juniors", "important": false},
+	        {"content": "Développement de l’application(Système de gestion du cycle de création d’une formation, Moteur de recherche de formation et d’annuaire, Intégration de la charte graphique)", "important": false},
+	        {"content": "Recette et qualification technique", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "Agile / Scrum", "important": false},
+	      	{"content": "PHP 5", "important": true},
+	      	{"content": "Symfony 2", "important": false},
+	      	{"content": "HTML5/CSS3", "important": true},
+	      	{"content": "JavaScript, jQuery, AJAX ", "important": true},
+	      	{"content": "MySQL", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "LA POSTE - DISFE",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "10/15",
+	      "fin": "10/15",
+	      "projet": "Développement d’un lanceur d’application sur support mobile",
+	      "introduction": "Réalisation d’une application mobile Android permettant de lancer différentes applications et services propre à La Poste.",
+	      "details": [
+	        {"content": "Mise en place d’un système de grille personnalisable pour le positionnement des icônes des applications", "important": false},
+	        {"content": "Développement d’un système de communication par messages entre applications", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "HTML5/CSS3", "important": true},
+	      	{"content": "JavaScript, jQuery, AJAX ", "important": true},
+	      	{"content": "Java", "important": false},
+	      	{"content": "Cordova", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "GRUEL FAYER",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "10/15",
+	      "fin": "10/15",
+	      "projet": "Déploiement d’un nouvel extranet",
+	      "introduction": "Mise en œuvre d’un nouvel extranet pour l’entreprise Gruel Fayer destiné aux clients Prémium",
+	      "details": [
+	        {"content": "Configuration d’EzPublish", "important": false},
+	        {"content": "Personnalisation du template", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "HTML5/CSS3", "important": true},
+	      	{"content": "EzPublish 4", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "CARIF - OREF",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "09/15",
+	      "fin": "09/15",
+	      "projet": "Maintenance du site orientation-paysdelaloire.fr",
+	      "introduction": "",
+	      "details": [
+	        {"content": "Maintenance évolutive et corrective", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "HTML5/CSS3/JavaScript", "important": true},
+	      	{"content": "Symfony 2", "important": false},
+	      	{"content": "EzPublish 5", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "VBN",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "09/15",
+	      "fin": "09/15",
+	      "projet": "Conception et prototypage d’une application mobile pour le club Volley Ball Nantes",
+	      "introduction": "",
+	      "details": [
+	        {"content": "Analyse fonctionnelle, maquettage, conception technique", "important": false},
+	        {"content": "Maquettage de l’application mobile sur iOS", "important": false},
+	        {"content": "Développement de l’application hybride iOS/Android", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "Angular JS", "important": true},
+	      	{"content": "Cordova/Ionic", "important": true},
+	      	{"content": "iOS/Android", "important": false},
+	      	{"content": "XCode/ Objective C/ Storyboard", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "EUROSAFE",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "01/14",
+	      "fin": "06/15",
+	      "projet": "Développement d’une application de gestion de paneliste",
+	      "introduction": "En charge du développement d’une application en ligne de gestion de paneliste pour une entreprise effectuant des tests de cosmétiques ou compléments alimentaires sur volontaires. <br>L’application permet de gérer les études, de recruter des volontaires en fonctions de critères spécifiques, suivre les rendez-vous des volontaires.",
+	      "details": [
+	        {"content": "Réalisation du cahier de spécifications", "important": false},
+	        {"content": "Avertissements / rappels de rendez-vous aux volontaires par SMS", "important": false},
+	        {"content": "Utilisation d’une API d’envoi de SMS", "important": false},
+	        {"content": "Système de pointage d’arriver des volontaires par scan de QR code", "important": false},
+	        {"content": "Communication avec l’outil Sphinx Online (solution web pour les enquêtes et l'analyse de données)", "important": false},
+	        {"content": "Maintenance évolutive et corrective", "important": false},
+	        {"content": "Méthodologie Agile", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "PHP 5, Symfony 2", "important": true},
+	      	{"content": "HTML 5, CSS 3", "important": true},
+	      	{"content": "JavaScript, jQuery, AJAX ", "important": false},
+	      	{"content": "MySQL", "important": false},
+	      	{"content": "Méthode Agile", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "ANAXIMANDRE",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "03/13",
+	      "fin": "12/13",
+	      "projet": "Développement des applications en ligne et mobile Doc Zen",
+	      "introduction": "Réalisation d’une application de gestion de l’attente dans les salles d’attente des cabinets médicaux.",
+	      "details": [
+	        {"content": "Réalisation du cahier de spécifications", "important": false},
+	        {"content": "Choix du framework de développement", "important": false},
+	        {"content": "Evaluation de plusieurs frameworks PHP (Zend, CakePHP, Symfony 2)", "important": false},
+	        {"content": "Réalisation de l’architecture logicielle", "important": false},
+	        {"content": "Gestion des rendez-vous des médecins et secrétaires", "important": false},
+	        {"content": "Prise (et annulation) de rendez-vous à distance pour les patients", "important": false},
+	        {"content": "Calcul du retard à la fin de chaque rendez-vous d’un médecin ", "important": false},
+	        {"content": "Utilisation d’une API d’envoi de SMS", "important": false},
+	        {"content": "Avertissement par mail ou SMS aux patients", "important": false},
+	        {"content": "Maintenance évolutive et corrective", "important": false},
+	        {"content": "Méthodologie Agile", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "PHP 5, Symfony 2", "important": true},
+	      	{"content": "HTML 5, CSS 3", "important": true},
+	      	{"content": "JavaScript, jQuery, AJAX ", "important": false},
+	      	{"content": "MySQL", "important": false},
+	      	{"content": "Titanium", "important": false},
+	      	{"content": "Méthode Agile", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "YPREMA",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "05/12",
+	      "fin": "02/13",
+	      "projet": "Développement d’une application mobile  de géolocalisation",
+	      "introduction": "Réalisation d’une application (pour Android et iPhone) de géolocalisation des déchèteries appartenant à la société Yprema.",
+	      "details": [
+	        {"content": "Réalisation du cahier de spécifications", "important": false},
+	        {"content": "Développement de l’application mobile avec l’outil cross plateforme Titanium", "important": false},
+	        {"content": "Utilisation de l’API Google Map, Affichage de la carte, Calcul de l’itinéraire", "important": false},
+	        {"content": "Méthodologie Agile", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "HTML 5, CSS 3", "important": true},
+	      	{"content": "JavaScript, jQuery, AJAX ", "important": false},
+	      	{"content": "MySQL", "important": false},
+	      	{"content": "Titanium", "important": false},
+	      	{"content": "Méthode Agile", "important": false},
+	      	{"content": "API Google MAP", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "TRAILER’S PARK",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "05/11",
+	      "fin": "12/11",
+	      "projet": "Développement d’un module de boutique en ligne",
+	      "introduction": "Réalisation d’un module de boutique en ligne pour le framework ker-e-liamm (plateforme de développement propriétaire)",
+	      "details": [
+	        {"content": "Réalisation du cahier de spécifications", "important": false},
+	        {"content": "Gestion du panier", "important": false},
+	        {"content": "Intégration du système de paiement en ligne (Citélis)", "important": false},
+	        {"content": "Développement d’un module de compte client", "important": false},
+	        {"content": "Développement d’un module de suivi de commande", "important": false},
+	        {"content": "Maintenance évolutive et corrective", "important": false},
+	        {"content": "Méthodologie Agile", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "HTML 5, CSS 3", "important": true},
+	      	{"content": "JavaScript, jQuery, AJAX ", "important": false},
+	      	{"content": "MySQL", "important": false},
+	      	{"content": "Titanium", "important": false},
+	      	{"content": "Méthode Agile", "important": false},
+	      	{"content": "API Google MAP", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "TRAILER’S PARK",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "05/11",
+	      "fin": "12/11",
+	      "projet": "Développement d’un module de boutique en ligne",
+	      "introduction": "Réalisation d’un module de boutique en ligne pour le framework ker-e-liamm (plateforme de développement propriétaire)",
+	      "details": [
+	        {"content": "Réalisation du cahier de spécifications", "important": false},
+	        {"content": "Gestion du panier", "important": false},
+	        {"content": "Intégration du système de paiement en ligne (Citélis)", "important": false},
+	        {"content": "Développement d’un module de compte client", "important": false},
+	        {"content": "Développement d’un module de suivi de commande", "important": false},
+	        {"content": "Maintenance évolutive et corrective", "important": false},
+	        {"content": "Méthodologie Agile", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "HTML 5, CSS 3", "important": true},
+	      	{"content": "JavaScript, jQuery, AJAX ", "important": false},
+	      	{"content": "MySQL", "important": false},
+	      	{"content": "Méthode Agile", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "CNPP",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "12/10",
+	      "fin": "04/11",
+	      "projet": "Développement d’une visionneuse PDF avec moteur de recherche",
+	      "introduction": "Réalisation d’une visionneuse PDF en JAVA regroupant l’ensemble des publications, depuis 30 ans, du magazine Feux Instructifs. Cette application fonctionne sur un DVD avec la protection Starforce.",
+	      "details": [
+	        {"content": "Réalisation de l’interface Homme Machine avec la bibliothèque JAVA Swing", "important": false},
+	        {"content": "Développement du moteur de recherche", "important": false},
+	        {"content": "Recherche de mots clés à l’intérieur du document PDF", "important": false},
+	        {"content": "Optimisation des PDF", "important": false},
+	        {"content": "Visionneuse de PDF", "important": false},
+	        {"content": "Utilisation de la librairie JPedal", "important": false},
+	        {"content": "Intégration de la protection Starforce", "important": false},
+	        {"content": "Méthodologie Agile", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "Java", "important": true},
+	      	{"content": "Swing ", "important": false},
+	      	{"content": "Méthode Agile", "important": false}
+	      ]
+	    },
+	       {
+	      "societe": "ANAXIMANDRE",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "10/09",
+	      "fin": "08/15",
+	      "projet": "En charge du développement des applications web éditées par l’agence ANAXIMANDRE",
+	      "details": [
+	        {"content": "Analyse avec le client, rédaction des spécifications", "important": false},
+	        {"content": "Qualification technique des développements, chiffrage et planification", "important": false},
+	        {"content": "Développements de modules à façon pour les clients, recette et déploiement", "important": false},
+	        {"content": "Maintenance de la plateforme de développement ker-e-liamm (Framework PHP) ", "important": false}
+	      ],
+	      "competences" : []
+	    },
+	       {
+	      "societe": "THALES S.A",
+	      "fonctions": "CONCEPTEUR DEVELOPPEUR",
+	      "debut": "09/08",
+	      "fin": "09/09",
+	      "projet": "",
+	      "introduction": "Le projet portait sur la recherche d’outils permettant d’automatiser les tests d’Interface Homme Machine.",
+	      "details": [
+	        {"content": "Recherche des outils en fonction des critères comme le temps de prise en main, les fonctionnalités proposées, la pérennité de l’application  … ", "important": false},
+	        {"content": "Réalisation d’une petite application pour faire les évaluer les différents outils.", "important": false},
+	        {"content": "Utilisation d’une version de l’application réelle avec les outils retenus.", "important": false}
+	      ],
+	      "competences" : [
+	      	{"content": "Java", "important": true},
+	      	{"content": "Swing ", "important": false},
+	      	{"content": "Méthode Agile", "important": false}
+	      ]
+	    }
+  ]
+}
