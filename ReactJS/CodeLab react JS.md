@@ -100,6 +100,18 @@ Page de profil
 
 Création d'un composant profil qui prendra comme paramètre le data.json l'entrée identification
 
+Dans le profil, on defini le type des propotype 
+
+```
+import PropTypes from 'prop-types';
+```
+
+```
+Profil.propTypes = {  name: PropTypes.string};
+```
+
+
+
 - On créer le menu basique comme a l'ancien en <ul> <li>
 - On installe le react-router
 
