@@ -122,3 +122,13 @@ npm install react-router-dom
 Cycle de vie des composant
 
 Api Context
+
+ <Context.Consumer>
+      {(context) => (
+        <p>Our CEO is {context.chiefExecutive} </p>
+      )}
+    </Context.Consumer>
+    
+     <Provider>
+        <Company /> .          
+      </Provider>
