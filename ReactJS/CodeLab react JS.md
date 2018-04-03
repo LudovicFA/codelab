@@ -56,7 +56,7 @@ ludovicfavreartigues@LBE-Portable:~/projets/codelab/sources$ npm run test
 **Points à expliquer**
 
 - La structure du projet
-- Le Développement par composant
+- Le Développement par composant 
 - Le JSX
 
 
@@ -123,6 +123,10 @@ npm install react-router-dom
 Cycle de vie des composant
 
 https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/react-lifecycle-flow-chart-states.png
+
+Realisation d'un timer
+
+Montrer le schema des différents etats
 
 
 Api Context

@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header title="Mon super CV"/>
-        <hr />
+        <hr />  
 
         <Router>
           <div>
