@@ -101,16 +101,17 @@ Page de profil
 Création d'un composant profil qui prendra comme paramètre le data.json l'entrée identification
 
 Dans le profil, on defini le type des propotype 
+```
+npm install -s prop-types
+```
 
 ```
 import PropTypes from 'prop-types';
 ```
 
 ```
-Profil.propTypes = {  name: PropTypes.string};
+Profil.propTypes = {  name: PropTypes.string };
 ```
-
-
 
 - On créer le menu basique comme a l'ancien en <ul> <li>
 - On installe le react-router
@@ -120,6 +121,9 @@ npm install react-router-dom
 ```
 
 Cycle de vie des composant
+
+https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/react-lifecycle-flow-chart-states.png
+
 
 Api Context
 
