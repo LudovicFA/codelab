@@ -59,8 +59,6 @@ ludovicfavreartigues@LBE-Portable:~/projets/codelab/sources$ npm run test
 - Le Développement par composant 
 - Le JSX
 
-
-
 On est partis
 
 Creation d'un composant 
@@ -101,6 +99,7 @@ Page de profil
 Création d'un composant profil qui prendra comme paramètre le data.json l'entrée identification
 
 Dans le profil, on defini le type des propotype 
+
 ```
 npm install -s prop-types
 ```
@@ -120,7 +119,7 @@ Profil.propTypes = {  name: PropTypes.string };
 npm install react-router-dom
 ```
 
-Cycle de vie des composant
+### Cycle de vie des composant
 
 https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/react-lifecycle-flow-chart-states.png
 
@@ -128,15 +127,35 @@ Realisation d'un timer
 
 Montrer le schema des différents etats
 
+### Api Context
 
-Api Context
+```
+import React, { createContext } from 'react'
 
- <Context.Consumer>
-      {(context) => (
-        <p>Our CEO is {context.chiefExecutive} </p>
-      )}
-    </Context.Consumer>
+// Initialize a context
+const Context = createContext()
+
+// This context contains two interesting components
+const { Provider, Consumer } = Context
+
+// Render Provider with some value
+<Provider value={{ firstName: 'Didier', lastName: 'Franc' }}>
+  <App />
+</Provider>
     
-     <Provider>
-        <Company /> .          
-      </Provider>
+// Now anywhere inside <App /> you can consume this data
+<Consumer>
+  {({ firstName, lastName }) => <span>{`${firstName} ${lastName}`</span>}
+</Consumer>
+```
+
+**Avantage**
+
+- Easier to implement
+- Weight and performance
+- Cleaner action return with state chunk (as in setState)
+
+**Inconvénient**
+
+- No Redux DevTools integration (WIP)
+- It only works with React ^16.3
